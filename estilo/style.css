@@ -55,6 +55,8 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    background-size: cover;
+    background-attachment: fixed;
     font-family: var(--font03);
     font-size: 3vw;
 }
@@ -72,8 +74,6 @@ section.imagem {
     background-color: rgb(26, 26, 26);
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.384);
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 section.imagem > p {
